@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sell Books</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- CSS Sheet -->
+    <link rel="stylesheet" href="sell-books.css">
+
+    <!-- Font Awosome -->
+    <script src="https://kit.fontawesome.com/d0eb3bd082.js" crossorigin="anonymous"></script>
+
+    <!-- JavaScript Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+        crossorigin="anonymous"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400&family=Ubuntu:wght@400;500;700&display=swap"
+        rel="stylesheet">
+	<!-- Comfortaa Cursive font link -->
+	<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Chakra+Petch:wght@300;400&family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Favicon  -->
+    <link rel="shortcut icon" href="Images\Project images\book.ico">
+
+</head>
+
+<body>
+
+    <!-- Nav Bar -->
+
+    <div class="container navbar-container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a href="index.html"><img class="logo-navbar " src="Images/logo-without-text.png" alt=""></a>
+            <a class="navbar-brand logo-text" href="index.html" style="color: whitesmoke;" >BooksVerse</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
+                    class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html" style="color: whitesmoke;" >Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="bloog.htm" style="color: whitesmoke;" >Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sign-up.html" style="color: whitesmoke;" >SignUp</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about-us.html" style="color: whitesmoke;" >About Us</a>
+                    </li>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container main-div" id="pic div">
+        <h1 class="main-heading">Sell Books</h1>
+        <div class="row">
+            <div class="col-md-8 border border-dark border-2 details-container rounded shadow-lg">
+                <form class="row g-3">
+                    <div>
+                        <h5><label for="inputTitle4" class="form-label">Title Of Book</label></h5>
+                        <input type="text" class="form-control" id="inputTitle4" placeholder="Enter Name of the Book"
+                            required>
+                    </div>
+                    <div class="md-form">
+                        <h5><label for="form7">Book Description</label></h5>
+                        <textarea id="form7" class="md-textarea form-control z-depth-1" rows="6"
+                            placeholder="Enter Book Description"></textarea>
+                    </div>
+                    <div class="col-md-3">
+                        <h5><label class="selling-price" for="sellingprice">Selling Price</label></h5>
+                        <input type="number" class="form-control" id="sellingprice" placeholder="&#x20b9 Price"
+                            required>
+                    </div>
+
+                    <div class="col-md-9 mb-3">
+                        <h5><label for="formFileMultiple" class="form-label">Upload Images of Book</label></h5>
+                        <input class="form-control" type="file" id="formFileMultiple" multiple required>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-3 border border-dark border-2 ms-auto select-container rounded shadow-lg">
+                <div class="col select-option">
+                    <label class="visually-hidden" for="autoSizingSelect">Preference</label>
+                    <select class="form-select" id="autoSizingSelect" required>
+                        <option selected>Year</option>
+                        <option value="1">1st Year</option>
+                        <option value="2">2nd Year</option>
+                        <option value="3">3rd Year</option>
+                        <option value="4">4th Year</option>
+                        <option value="5">JEE/NEET</option>
+                        <option value="6">Other</option>
+                    </select>
+                </div>
+                <div class="col select-option">
+                    <label class="visually-hidden" for="autoSizingSelect">Preference</label>
+                    <select class="form-select" id="autoSizingSelect" required>
+                        <option selected>Course</option>
+                        <option value="1">CSE</option>
+                        <option value="2">EEE</option>
+                        <option value="3">ECE</option>
+                        <option value="4">Civil</option>
+                        <option value="5">Mechanical</option>
+                        <option value="6">Chemical</option>
+                        <option value="7">Other</option>
+                    </select>
+                    <div class="col select-option">
+                        <label class="visually-hidden" for="autoSizingSelect">Preference</label>
+                        <select class="form-select" id="autoSizingSelect" required>
+                            <option selected>Subject</option>
+                            <option value="1">Physics</option>
+                            <option value="2">Chemistry</option>
+                            <option value="3">Mathematics</option>
+                            <option value="4">Programing Language</option>
+                            <option value="5">Others</option>
+                        </select>
+                    </div>
+                    <div class="col select-option">
+                        <label class="visually-hidden" for="autoSizingSelect">Preference</label>
+                        <select class="form-select" id="autoSizingSelect" required>
+                            <option selected>Condition</option>
+                            <option value="1">Newlike 🤑</option>
+                            <option value="2">Good 🙂</option>
+                            <option value="3">Satisfactory 😐</option>
+                            <option value="4">Not Good 😑</option>
+                            <option value="5">Pages Missing 😖</option>
+                        </select>
+                    </div>
+                    <div class="col submit-button">
+                        <button type="button" class="btn btn-light confirm-button"><i class="fas fa-check"></i>
+                            Confirm</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Guide to Selling Books -->
+
+    <div class="container guide-container">
+        <div class="border border-dark border-2 shadow-lg guide rounded">
+            <div class="row">
+                <div class="col-md-7">
+                    <h4 class="paragraph-style-1"><i class="fas fa-hand-point-right right-hand-point-icon-2"></i>
+                        Follow the simple steps given below to upload the books that you want to give out:</h4>
+                    <ul>
+                        <li>Enter your Book's title.</li>
+                        <li>Select appropriate options from right side menu.</li>
+                        <li>Enter the amount you want for the book.</li>
+                        <li>Upload pictures(s) of the book.</li>
+                    </ul>
+                </div>
+                <div class="col-md-5 illustration">
+                    <img class="sell-books-illustration ms-auto" src="Images/sell-books-illustration.png" alt="">
+                </div>
+            </div>
+            <div class="guide-text">
+                <p class="paragraph-style-1"><i class="fas fa-hand-point-right right-hand-point-icon-1"></i> Books often
+                    find little use and respect once you have read them through. And one is often left wondering how to
+                    best utilize such books. So here is your opportunity - you can sell books that you have read by
+                    simply uploading those. Then you just have to wait for a buyer to choose your book.</p>
+                <p class="paragraph-style-2"><i class="fas fa-hand-point-right right-hand-point-icon-2"></i>Nothing can
+                    match the happiness of sharing your treasured books with others, who would love reading them as much
+                    as you did!</p>
+            </div>
+        </div>
+    </div>
+<br><br>
+    <!-- Footer -->
+
+	<footer>
+		<div class="foot-logo">
+			<img src="Images\Project images\BooksVerse logo.png">
+		</div>
+		<div class="useful-links">
+			<h2>Useful Links</h2>
+			<ul>
+				<a href="index.html"><li>Home</li></a>
+				<a href="about-us.html"><li>About Us</li></a>
+				<a href="sell-books.html"><li>Sell</li></a>
+				<a href="bloog.htm"><li>Blogs</li></a>
+			</ul>
+		</div>
+		<div class="Support">
+			<h2>Support</h2>
+			<ul>
+				<a href="#"><li>Contact Us</li></a>
+				<a href="#"><li>Return Policy</li></a>
+				<a href="#"><li>Payment Methods</li></a>
+				<a href="#"><li>FAQ</li></a>
+			</ul>				
+		</div>
+		<div id="social-media">
+			<div id="icons">
+				<h2>Follow us</h2>
+				<ul>
+					<a href="#"><li><i class="fab fa-linkedin"></i></li></a>
+					<a href="#"><li><i class="fab fa-facebook"></i></li></a>
+					<a href="#"><li><i class="fab fa-twitter-square"></i></li></a>
+					<a href="#"><li><i class="fab fa-reddit"></i></li></a>
+				</ul>
+			</div>
+			<div id="email-box">
+				<h2>Subscribe to our NewsLetter</h2>
+				<div class="mb-3">
+					<label for="exampleInputEmail1" class="form-label">Email address</label>
+					<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="abc@gmail.com">
+					<div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+				  </div>
+				  <button type="button" class="btn btn-outline-light">Subscribe</button>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>

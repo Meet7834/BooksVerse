@@ -1,0 +1,167 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #00CCF5;
+  color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 2rem;
+}
+
+.logo-navbar {
+  height: 3rem;
+  position: relative;
+  top: 1px;
+  padding-right: 0.4rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 0.2rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 300;
+}
+
+.container-fluid {
+  padding: 3% 9% 3%;
+}
+
+/* Main Content */
+
+.checkout {
+  text-align: left;
+  font-size: 2.5rem;
+  line-height: 1;
+  font-weight: 800;
+  color: #373737;
+  margin-bottom: 2rem;
+  margin-top: -2rem;
+}
+
+/* Details Container */
+
+.details-container {
+  padding: 2%;
+  background-color: #8381C0;
+  margin-bottom: 5%;
+  color: white;
+}
+
+.selling-price {
+  margin-bottom: 8px;
+}
+
+.book-img {
+  float: left;
+  margin-right: 1rem;
+}
+
+.title {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 1rem;
+}
+
+/* Select Container  */
+.select-container {
+  padding: 2%;
+  background-color: #8381C0;
+  margin-bottom: 5%;
+}
+
+.select-option {
+  padding-top: 1.5rem;
+}
+
+.confirm-button {
+  float: right;
+}
+
+.book-img {
+  float: left;
+  height: 8rem;
+}
+
+.book-name {
+  color: white;
+}
+
+.book-author {
+  color: white;
+}
+
+.total-money {
+  display: inline;
+}
+
+/* footer */
+footer{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	height: 50%;
+	align-items: center;
+	justify-content: space-evenly;
+	color:whitesmoke;
+	background-color:#212529;
+	font-family:'Comfortaa', cursive;
+}
+.foot-logo{
+	width: 26rem;
+	margin: 1rem;
+}
+.foot-logo img{
+	width:80%
+}
+
+footer a{
+	color: whitesmoke;
+	text-decoration: none;
+}
+footer ul{
+	list-style:none;
+	padding-left: 0%;
+}
+.useful-links,.Support{
+	margin-top: -9%;
+}
+
+#social-media{
+	display:flex;
+	flex-direction:column;
+	flex-wrap: wrap;
+	margin-bottom: -1.1%;
+	justify-content: space-around;
+}
+#social-media li{
+	display: inline-block;
+	padding: 0.3rem;
+	font-size: 1.8rem;
+}
+@media screen and (max-width:1240px) {
+	.useful-links{
+		margin-top: 0%;
+	}
+	.Support{
+		margin-top: 0%;
+	}
+}

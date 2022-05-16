@@ -1,0 +1,137 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    background-color: #00CCF5;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+
+/* Headings */
+
+.big-headings {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.features-headings {
+    font-size: 1.5rem
+}
+
+
+/* Title Section */
+
+#title {
+    text-align: left;
+}
+
+.sign-up-text {
+    color: #FFDA0A;
+}
+
+.title-img {
+    width: 80%;
+}
+
+.container-fluid {
+    padding: 3% 12% 3%;
+}
+
+.sign-up-container {
+    background-color: #8381C0;
+    border-radius: 1%;
+    padding: 3%;
+    color: #FFEE93;
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 2rem;
+}
+
+.logo-navbar {
+    height: 3rem;
+    position: relative;
+    top: 1px;
+    padding-right: 0.4rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 0.2rem;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: 300;
+}
+
+
+/* Download Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.login-btn {
+  margin-top: 0.5rem;
+}
+
+/* Features Section*/
+
+#features {
+    padding: 7% 15%;
+    position: relative;
+    color: #212529;
+}
+
+.features-icons {
+    color: #373737;
+    font-size: 3.5rem;
+    padding-bottom: 1rem;
+}
+
+.features-icons:hover {
+    color: #FF7086;
+    font-size: 3.5rem;
+    padding-bottom: 1rem;
+}
+
+.feature-box {
+    padding: 5%;
+}
+
+
+/* Footer Section */
+
+#footer {
+    padding: 4% 0 3.5% 0;
+    background-color: #8381C0;
+}
+
+.copyright {
+    color: white;
+}
+
+.fotter-icons {
+    font-size: 1.5rem;
+    padding: 2% 1% 2% 1%;
+    color: white;
+}
+
+.xyz a{
+    text-decoration: none;
+    color: unset;
+}

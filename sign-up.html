@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Sign Up</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!-- CSS Sheets -->
+  <link rel="stylesheet" href="sign-up.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400&family=Ubuntu:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awosome -->
+  <script src="https://kit.fontawesome.com/d0eb3bd082.js" crossorigin="anonymous"></script>
+
+  <!-- JavaScript Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+    integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+    crossorigin="anonymous"></script>
+
+  <!-- Favicon  -->
+  <link rel="shortcut icon" href="Images\Project images\book.ico">
+
+</head>
+
+<body>
+
+  <section id="title">
+
+    <!-- Nav Bar -->
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a href="index.html"><img class="logo-navbar " src="Images/logo-without-text.png" alt=""></a>
+        <a class="navbar-brand logo-text" href="index.html" style="color: whitesmoke;">BooksVerse</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
+            class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html" style="color: whitesmoke;" >Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html" style="color: whitesmoke;" >Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sell-books.html" style="color: whitesmoke;" >Sell/Donate</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about-us.html" style="color: whitesmoke;" >About Us</a>
+            </li>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Title -->
+      <div class="title-and-img">
+        <div class="row">
+          <div class="col-lg-6">
+            <h1 class="big-headings">Buy, Sell and Trade Second Hand Books.</h1>
+            <button type="button" class="btn btn-dark btn-lg download-button xyz"><a href="login.html"><i class="fas fa-sign-in-alt"></i>
+              Login</a></button>
+          </div>
+          <div class="col-lg-6 border border-dark border-2 shadow-lg sign-up-container">
+            <h1 class="sign-up-text">Sign Up</h1>
+            <p class="sign-up-text">Please Fill this form to create a account!</p>
+            <form class="row g-3">
+              <div class="col-md-6">
+                <label for="inputfirstname" class="form-label">First Name</label>
+                <input type="text" class="form-control" placeholder="First name" aria-label="First name"
+                  id="inputfirstname">
+              </div>
+              <div class="col-md-6">
+                <label for="inputlastname" class="form-label">Last Name</label>
+                <input type="text" class="form-control" placeholder="Last name" aria-label="Last name"
+                  id="inputlastname">
+              </div>
+              <div class="col-12">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="random123@email.com">
+              </div>
+              <div class="col-md-6">
+                <label for="inputPassword4" class="form-label">Password</label>
+                <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+              </div>
+              <div class="col-md-6">
+                <label for="inputPassword4" class="form-label">Confirm Password</label>
+                <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+              </div>
+              <div class="col-lg-6">
+                <label for="inputUsername" class="form-label">Username</label>
+                <input type="text" class="form-control" id="inputUsername" placeholder="Username">
+              </div>
+              <div class="col-lg-6">
+                <label for="inputPhoneNumber" class="form-label">Phone Number</label>
+                <input type="number" class="form-control" id="inputPhoneNumber" placeholder="Phone Number">
+              </div>
+              <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">I accept the Terms of Use & Privacy Policy</label>
+                </div>
+              </div>
+              <div class="col">
+                <button type="submit" class="btn btn-outline-light xyz"><a href="login.html"><i class="fas fa-user-plus"></i> Sign Up</a></button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- Features -->
+  <section id="features">
+    <div class="row">
+      <div class="col-lg-4 feature-box">
+        <i class="fas fa-shopping-cart features-icons"></i>
+        <h3 class="fetures-headings">Buy Books</h3>
+        <p feat-para>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="col-lg-4 feature-box">
+        <i class="fas fa-rupee-sign features-icons"></i>
+        <h3 class="fetures-headings">Sell Books</h3>
+        <p feat-para>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="col-lg-4 feature-box">
+        <i class="fas fa-exchange-alt features-icons"></i>
+        <h3 class="fetures-headings">Trade Books</h3>
+        <p feat-para>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+
+  <footer class="border-top border-dark border-2" id="footer">
+    <a href="https://www.facebook.com/"><i class="fotter-icons fab fa-facebook"></i></a>
+    <a href="https://www.twitter.com/"><i class="fotter-icons fab fa-twitter"></i></a>
+    <a href="https://www.instagram.com/"><i class="fotter-icons fab fa-instagram"></i></a>
+    <a href="https://www.linkedin.com/"><i class="fotter-icons fab fa-linkedin"></i></a>
+    <p class="copyright">© Copyright 2021 Technocrats</p>
+
+  </footer>
+
+</body>
+
+</html>

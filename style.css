@@ -1,0 +1,222 @@
+
+.navbar{
+    background-color: #8381C0;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+/* media query  */
+@media screen and (max-width:1100px) {
+	.navbar{
+		padding-left: 0rem;
+		padding-right: 0rem;
+	}
+}
+/* color of a tag */
+.navbar a{
+	color: aliceblue;
+}
+/* tabs */
+.navbar-nav{
+    font-family:'Comfortaa', cursive;
+    font-size: 1rem;
+}
+/* navbar hover effect */
+.navbar-nav a:hover{
+	text-decoration:underline;
+	color:white;
+}
+.dropdown-menu{
+	background-color:#8381C0;
+}
+.dropdown-item:hover{
+	background-color:#8381C0;
+}
+/* brand-name styling */
+.navbar-brand span{
+	display: inline-block;
+	font-size: 1.7rem;
+	font-family:'Mochiy Pop P One', sans-serif;
+	font-weight: normal;
+}
+/* brand image styling */
+.navbar-brand img{
+	padding-bottom: 2%;
+}
+/* search button */
+.btn{
+	color:whitesmoke;
+	margin-right: 2%;
+}
+/* visted liink color */
+.navbar-nav a:visited{
+	color:whitesmoke
+}
+/* caraousel font change */
+.carousel-caption{
+    font-family:'Comfortaa', cursive;
+}
+/* website name */
+.website-name{
+	text-align:center;
+	font-family: 'Comic Neue', cursive;
+	font-size:1.4rem;
+}
+/* main-content */
+main{
+	margin-top: 2%;
+}
+/* section head */
+.title{
+	margin-bottom: 21%;
+}
+.head{
+	text-align: center;
+	font-size: 1.4rem;
+	font-family: "Montserrat", sans-serif;
+}
+/* styling for hr tag */
+hr{
+	margin-left: 40%;
+	width: 21vw;
+	background-color: black;
+	border:none;
+	height: 2px !important;
+	opacity: 1;
+}
+.hr2{
+	margin-left: 40%;
+	width: 21vw;
+	background-color: black;
+	border:none;
+	height: 2px !important;
+	opacity: 1;
+	margin-bottom: 0%;
+}
+/* book set section  */
+.book-set{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	background-color:#00CCF5;
+	height:20%;
+}
+/* book box */
+.book{
+    width: 15rem;
+    height: 25rem;
+    background-color: #8381C0;
+    margin-top: -14%;
+	transition:30ms;
+	perspective: 100px;
+	border-radius: 10px;
+	margin-bottom: 4%;
+}
+/* books image */
+.book-image{
+	margin: 1rem 1.55rem;
+}
+.book-image img{
+	width: 100%;
+	max-height: 100%;
+    max-width: 100%;
+	height:13rem;
+}
+/* books text */
+.book-text span{
+	display: block;
+	text-align: center;
+	margin-bottom: 1%;
+	font-family: 'Chakra Petch', sans-serif;;
+}
+.book-text a{
+	text-decoration: none;
+	color: black;
+}
+/* media query for books box */
+@media screen and (max-width:1240px) {
+	.title {
+		margin-bottom: 2%;
+	}
+	.book{
+		margin-top: 2%;
+	}
+}
+/* second section */
+.title1{
+	background-color:#00CCF5;
+	margin-top: -2%;
+}
+.book1{
+    width: 15rem;
+    height: 25rem;
+    background-color: #8381C0;
+	margin-top: 2%;
+	transition:30ms;
+	perspective: 100px;
+	border-radius: 10px;
+	margin-bottom: 4%;
+}
+/* newletter font */
+.tt h1{
+	font-family: "Montserrat", sans-serif;
+}
+.tt p{
+	font-family:'Comfortaa', cursive;
+}
+.xyz a{
+    text-decoration: none;
+    color: unset;
+}
+/* footer */
+footer{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	height: 50%;
+	align-items: center;
+	justify-content: space-evenly;
+	color:whitesmoke;
+	background-color:#212529;
+	font-family:'Comfortaa', cursive;
+}
+.foot-logo{
+	width: 26rem;
+	margin: 1rem;
+}
+.foot-logo img{
+	width:80%
+}
+
+footer a{
+	color: whitesmoke;
+	text-decoration: none;
+}
+footer ul{
+	list-style:none;
+	padding-left: 0%;
+}
+.useful-links,.Support{
+	margin-top: -9%;
+}
+
+#social-media{
+	display:flex;
+	flex-direction:column;
+	flex-wrap: wrap;
+	margin-bottom: -1.1%;
+	justify-content: space-around;
+}
+#social-media li{
+	display: inline-block;
+	padding: 0.3rem;
+	font-size: 1.8rem;
+}
+@media screen and (max-width:1240px) {
+	.useful-links{
+		margin-top: 0%;
+	}
+	.Support{
+		margin-top: 0%;
+	}
+}
