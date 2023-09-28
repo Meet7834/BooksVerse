@@ -4,7 +4,7 @@ BooksVerse is a frontend website project designed to create a marketplace for bu
 
 ## Demo
 
-You can access a live demo of the BooksVerse website [here](#). Feel free to explore and use the platform to buy and sell old books.
+You can access a live demo of the BooksVerse website [here](https://meet7834.github.io/BooksVerse/). Feel free to explore and use the platform to buy and sell old books.
 
 ## Features (it is purely frontend any of the function which needs JS simply doesn't work)
 
